@@ -1,0 +1,10 @@
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\bin\Debug\BGGdotNET.dll
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\bin\Debug\BGGdotNET.pdb
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\obj\Debug\BGGdotNET.csprojResolveAssemblyReference.cache
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\obj\Debug\BGGdotNET.dll
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\obj\Debug\BGGdotNET.pdb
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\bin\Debug\BGGdotNET.dll.config
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\bin\Debug\EntityFramework.dll
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\bin\Debug\EntityFramework.xml
+C:\Users\edv1eku\Downloads\BoardGameGeekDotNet-master (1)\BoardGameGeekDotNet-master\BGGdotNET\BGGdotNET\bin\Debug\EntityFramework.SqlServer.xml

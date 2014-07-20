@@ -1,0 +1,10 @@
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\bin\Debug\BGGwrapper.dll.config
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\bin\Debug\BGGwrapper.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\bin\Debug\BGGwrapper.pdb
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\bin\Debug\EntityFramework.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\bin\Debug\EntityFramework.xml
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\obj\Debug\BGGwrapper.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\obj\Debug\BGGwrapper.pdb
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper\obj\Debug\BGGwrapper.csprojResolveAssemblyReference.cache

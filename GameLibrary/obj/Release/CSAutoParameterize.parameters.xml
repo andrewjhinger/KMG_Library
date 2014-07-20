@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="gameLibraryAuthContext-Web.config Connection String" description="gameLibraryAuthContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=ASUS-PC\SQLEXPRESS;Initial Catalog=kmGames;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False; MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp\\Views\\Web\.config$" match="/configuration/connectionStrings/add[@name='gameLibraryAuthContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='gameLibraryAuthContext']/@connectionString" />
+  </parameter>
+  <parameter name="ApplicationDbContext-Web.config Connection String" description="ApplicationDbContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=ASUS-PC\SQLEXPRESS;Initial Catalog=gameLibraryAuthContext;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False; MultipleActiveResultSets=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="gameLibraryAuthContext_DatabasePublish-Web.config Connection String" description="gameLibraryAuthContext_DatabasePublish Connection String used in web.config by the application to access the database." defaultValue="gameLibraryAuthContext_DatabasePublish.ConnetionString" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='gameLibraryAuthContext_DatabasePublish']/@connectionString" />
+  </parameter>
+</parameters>

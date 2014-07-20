@@ -1,0 +1,117 @@
+﻿@model BGGdotNET.Objects.BoardGame
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>BoardGame</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Game Name:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BoardGameName.First(x => x.isPrimary == true).name)
+        </dd>
+        <dt>
+            Year Published:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.yearPublished)
+        </dd>
+
+        <dt>
+            Minimum Players:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.minPlayers)
+        </dd>
+
+        <dt>
+            Maximum Players:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.maxPlayers)
+        </dd>
+
+        <dt>
+            Playing Time:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.playingTime)
+        </dd>
+
+        <dt>
+            Suggested Age:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.age)
+        </dd>
+
+        <dt>
+            Description:
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.description)
+        </dd>
+
+        <dt>
+            Categories:
+        </dt>
+        <dd>
+            @Html.Raw(string.Join(", ", Model.BoardGameCategories.Select(p => p.value).ToArray()))
+        </dd>
+        <dt>
+            Mechancis:
+        </dt>
+        <dd>
+            @Html.Raw(string.Join(", ", Model.BoardGameMechanics.Select(p => p.value).ToArray()))
+        </dd>
+        <dt>
+            Sub-domains:
+        </dt>
+        <dd>
+            @Html.Raw(string.Join(", ", Model.BoardGameSubdomains.Select(p => p.value).ToArray()))
+        </dd>
+        <dt>
+            Honors:
+        </dt>
+        <dd>
+            @Html.Raw(string.Join(", ", Model.BoardGameHonors.Select(p => p.value).ToArray()))
+        </dd>
+        <dt>
+            Designers:
+        </dt>
+        <dd>
+            @Html.Raw(string.Join(", ", Model.BoardGameDesigner.Select(p => p.value).ToArray()))
+        </dd>
+        <dt>
+            Publishers:
+        </dt>
+        <dd>
+            @Html.Raw(string.Join(", ", Model.BoardGamePublisher.Select(p => p.value).ToArray()))
+        </dd>
+        <dt>
+            Expansions:
+        </dt>
+        <dd>
+            @Html.Raw(string.Join(", ", Model.BoardGameExpansions.Select(p => p.value).ToArray()))
+        </dd>
+
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ObjectID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

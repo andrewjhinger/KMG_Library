@@ -1,0 +1,100 @@
+﻿@model IEnumerable<BGGdotNET.Objects.BoardGame>
+
+@{
+    ViewBag.Title = "Board Games";
+}
+
+
+
+<h2>Kingmakers Board Game Library</h2>
+
+<body>
+    @*<script>
+        var iframe_id = 'example6';
+        var updateIframeHeight = 'true';
+        var hide_page_until_loaded_external = 'true';
+    </script>*@
+    
+
+    <div class="error">
+        @if (!String.IsNullOrEmpty(ViewBag.Error))
+        {
+            @ViewBag.Error
+        }
+    </div>
+
+    <div>
+        @using (Html.BeginForm("Index", "BoardGame", FormMethod.Get))
+        {
+            <p>
+                <b>Game Genre: @Html.DropDownList("gameDomain", "All")</b>
+                <b>Required Players: @Html.DropDownList("gameMinPlayers", "All")</b>
+                <b>Find by name: @Html.TextBox("searchString", ViewBag.CurrentFilter as string)</b>
+                @*<br /><b>Player range: </b>@Html.TextBox("gameMinPlayers", ViewBag.minimumP as int?)
+                <b>TO</b>
+                @Html.TextBox("gameMaxPlayers", ViewBag.maximumP as int?, new { @style = "width:30px;" })*@
+                <input type="submit" value="Filter" />
+            </p>
+
+        }
+    </div>
+
+    @if (Model.Count() > 0)
+    {
+        <div><b>Displaying @Model.Count() games</b></div>
+    }
+    else
+    {
+        <div><b>No games returned</b></div>
+    }
+
+
+    <table class="table">
+
+        <tr>
+            @*<th>@Html.ActionLink("Game Name:", "Index", new { sortOrder = ViewBag.NameSortParm, currentFilter = ViewBag.CurrentFilter })</th>*@
+            <th>Game Image:</th>
+            <th>Game Name:</th>
+            <th>Players:</th>
+            <th>Categories:</th>
+            <th>Mechanics:</th>
+            <th>Playing Time:</th>
+            @*<th>@Html.ActionLink("Playing Time", "Index", new { sortOrder = ViewBag.PlayingTimeSortParm, currentFilter = ViewBag.CurrentFilter })</th>*@
+
+
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <img src="@Url.Content(item.imageThumnailURL)" alt="Image" />
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.BoardGameName.First(x => x.isPrimary == true).name)</td>
+                <td> @Html.DisplayFor(modelItem => item.minPlayers) - @Html.DisplayFor(modelItem => item.maxPlayers)</td>
+                <td>
+                    @foreach (var dom in item.BoardGameSubdomains)
+                    {
+                        dom.value = dom.value.Replace("Games", string.Empty);
+                        @Html.DisplayFor(modelItem => dom.value)<br />
+                    }
+                </td>
+                <td>
+                    @foreach (var mech in item.BoardGameMechanics)
+                    {
+                        @Html.DisplayFor(modelItem => mech.value)<br />
+                    }
+                </td>
+                <td>@Html.DisplayFor(modelItem => item.playingTime)</td>
+
+                <td>
+                    @Html.ActionLink("Details", "Details", new { id = item.ObjectID })
+                </td>
+            </tr>
+        }
+
+    </table>
+    <script src="http://kingmakerscolumbus.com/wp-content/plugins/advanced-iframe/js/ai_external.js"></script>
+</body>
+
+<br />

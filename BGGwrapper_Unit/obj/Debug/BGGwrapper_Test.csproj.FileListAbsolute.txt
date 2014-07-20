@@ -1,0 +1,17 @@
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\TestData\BoardGame.xml
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\TestData\GeekListWithComments.xml
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\TestData\GeekList.xml
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\TestData\Search.xml
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\BGGwrapper_Unit.dll.config
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\BGGwrapper_Unit.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\BGGwrapper_Unit.pdb
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\BGGwrapper.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\EntityFramework.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\GridMvc.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\BGGwrapper.pdb
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\EntityFramework.xml
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\obj\Debug\BGGwrapper_Test.csprojResolveAssemblyReference.cache
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\obj\Debug\BGGwrapper_Unit.dll
+C:\Users\andrew\Documents\Visual Studio 2013\Projects\KMG_Library\BGGwrapper_Unit\obj\Debug\BGGwrapper_Unit.pdb

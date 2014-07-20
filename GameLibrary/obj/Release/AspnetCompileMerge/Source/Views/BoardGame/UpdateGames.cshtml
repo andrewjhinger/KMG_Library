@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Update Game Library";
+}
+
+<h2>Update Games</h2>
+
+
+
+@using (Html.BeginForm("UpdateGames", "BoardGame", FormMethod.Get))
+{
+    <p>
+
+        <input type="submit" value="Update!" />
+    </p>
+}

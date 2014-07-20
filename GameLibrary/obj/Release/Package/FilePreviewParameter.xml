@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="kingmakers.thetenantartprints.com" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ApplicationDbContext-Web.config Connection String" description="" value="Data Source=WINDFLOWER.arvixe.com;Initial Catalog=nopDB;User ID=ahinger;Password=tenstar5" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ApplicationDbContext']/@connectionString" />
+  </parameter>
+  <parameter name="gameLibraryAuthContext-Web.config Connection String" description="" value="Data Source=WINDFLOWER.arvixe.com;Initial Catalog=nopDB;User ID=ahinger;Password=tenstar5" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp\\Views\\Web\.config$" match="/configuration/connectionStrings/add[@name='gameLibraryAuthContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\edv1eku\\Downloads\\BoardGameGeekDotNet-master\ \(1\)\\BoardGameGeekDotNet-master\\BGGdotNET\\gameLibraryAuth\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='gameLibraryAuthContext']/@connectionString" />
+  </parameter>
+</parameters>
